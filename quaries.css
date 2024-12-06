@@ -1,0 +1,175 @@
+/** @format */
+
+@media (max-width: 1200px) {
+  .padd-10 {
+    padding: 3rem 2rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .padd-10 {
+    padding: 3rem 10rem;
+  }
+  .headerImg {
+    width: 100%;
+  }
+  .headerBox {
+    flex-direction: column;
+    text-align: center;
+  }
+  .headerSettingBox {
+    margin: 2rem auto;
+  }
+  .startBox,
+  .achivementBox {
+    justify-content: center;
+  }
+  .achivement {
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+  }
+  .about {
+    flex-direction: column;
+  }
+  .AboutImg {
+    width: 100%;
+  }
+  .aboutImg {
+    width: 100%;
+    position: relative;
+    height: auto;
+    top: 0;
+    left: 0;
+    border-radius: 2rem;
+  }
+  .featureTab:checked + .totab + .featureBox {
+    grid-template-columns: 1fr;
+  }
+  .featureColorBox,
+  .counterWrapper {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  .pricesBox {
+    flex-direction: column;
+    gap: 5rem;
+  }
+  .priceBox {
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3);
+  }
+  .contacts {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  .shift1 {
+    left: 30%;
+  }
+  .shift3 {
+    left: 70%;
+  }
+  .footer-box {
+    grid-template-columns: 2fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 800px) {
+  .navListBox {
+    display: none;
+  }
+
+  .navs .navListBox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+  }
+
+  .navs .navListBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 999;
+    background-color: whitesmoke;
+  }
+  
+  .navs .navList{
+    font-size: 2rem;
+  }
+
+  .nav-btn-box {
+    display: flex;
+    z-index: 9999;
+    font-size: 5rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .close {
+    display: none;
+  }
+
+  .navs .open {
+    display: none;
+  }
+
+  .navs .close {
+    display: block;
+    position: fixed;
+    right: 1rem;
+    top: 1rem;
+  }
+
+  .testimoyBoxes,
+  .servicesBox,
+  .faq {
+    grid-template-columns: 1fr;
+  }
+  .cta {
+    padding: 5rem;
+  }
+  .contactorBtn {
+    width: 50%;
+  }
+  .footer-box {
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .padd-10 {
+    padding: 3rem;
+  }
+  .footer-box {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  .achivement,
+  .featureColorBox {
+    grid-template-columns: 1fr;
+  }
+  .contactorMail {
+    flex-direction: column;
+  }
+  .contactorBtn {
+    width: 100%;
+  }
+  .shift1 {
+    left: 20%;
+  }
+  .shift3 {
+    left: 80%;
+  }
+}
+@media (max-width: 400px) {
+  .padd-10 {
+    padding: 3rem 1rem;
+  }
+}
