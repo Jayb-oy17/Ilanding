@@ -34,6 +34,18 @@ body {
   padding: 3rem 10rem;
 }
 
+/* SECTION REVEAL  */
+.section {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 1s ease-out;
+  scroll-margin-top: 10rem;
+}
+.section.visible {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
 /* HERO SECTION START */
 
 .hero {
@@ -100,7 +112,7 @@ body {
   font-size: 15px;
   font-weight: 400;
 }
-.nav-btn-box{
+.nav-btn-box {
   display: none;
 }
 .header {
@@ -450,6 +462,17 @@ body {
 }
 .featureTabBox {
   position: relative;
+}
+.back::before {
+  content: "";
+  position: absolute;
+  width: 35rem;
+  height: 6rem;
+  background-color: rgba(128, 128, 128, 0.179);
+  top: -8rem;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 5rem;
 }
 .featureTab {
   display: none;

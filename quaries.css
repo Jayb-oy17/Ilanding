@@ -1,5 +1,9 @@
 /** @format */
-
+@media (max-width: 2000px) {
+  .back::before {
+    width: 45rem;
+  }
+}
 @media (max-width: 1200px) {
   .padd-10 {
     padding: 3rem 2rem;
@@ -97,8 +101,8 @@
     z-index: 999;
     background-color: whitesmoke;
   }
-  
-  .navs .navList{
+
+  .navs .navList {
     font-size: 2rem;
   }
 
@@ -166,6 +170,9 @@
   }
   .shift3 {
     left: 80%;
+  }
+  .back::before{
+    width: 100%;
   }
 }
 @media (max-width: 400px) {
