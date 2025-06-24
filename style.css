@@ -38,7 +38,7 @@ body {
 .section {
   opacity: 0;
   transform: translateY(100px);
-  transition: all 1s ease-out;
+  transition: all .5s ease-out;
   scroll-margin-top: 10rem;
 }
 .section.visible {

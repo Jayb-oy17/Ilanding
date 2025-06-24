@@ -31,6 +31,9 @@ const navs = document.querySelectorAll(".navList");
 navs.forEach((button) => {
   button.addEventListener("click", function () {
     nav.classList.remove("navs");
+    navs.forEach((clicker) => clicker.classList.remove("navActive"));
+
+    button.classList.add("navActive");
   });
 });
 
